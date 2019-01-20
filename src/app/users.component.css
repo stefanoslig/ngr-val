@@ -1,0 +1,39 @@
+:host {
+	margin: 120px 10px 10px 10px;
+	display: flex;
+}
+
+ul {
+	margin: 10px;
+	padding-inline-start: 0;
+	border: 1px solid rgba(0,0,0,.03);
+	box-shadow: 0 2px 2px rgba(0,0,0,.24), 0 0 2px rgba(0,0,0,.12);
+	flex: 1;
+}
+
+h3 {
+	padding-left: 10px;
+	color: #57727C;
+}
+
+li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1.5em;
+}
+
+li + li {
+	border-top: 1px solid #D7DBDD;
+}
+
+li .description {
+	color: #57727C;
+	font-size: 15px;
+	padding: 5px 15px;
+}
+
+
+
+
+

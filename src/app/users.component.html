@@ -1,0 +1,12 @@
+<ul>
+	<li *ngFor="let item of users">
+		<span class="description">{{item.first_name}} {{item.last_name}}</span>
+		<input type="checkbox" (click)="toggleUser(item.id)" />
+	</li>
+</ul>
+<ul>
+	<h3>Selected Users</h3>
+	<li *ngFor="let selected of selectedUsers">
+		<span class="description">{{selected.first_name}} {{selected.last_name}}</span>
+	</li>
+</ul>

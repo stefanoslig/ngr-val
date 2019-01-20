@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@ngr-val/core": [
+        "dist/ngr-val/core"
+      ],
+      "@ngr-val/core/*": [
+        "dist/ngr-val/core/*"
+      ]
+    }
   }
 }
