@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
-import { CoreComponent } from './core.component';
+import { RsyncPipe } from './rsync.pipe';
 
 @NgModule({
-  declarations: [CoreComponent],
+  declarations: [RsyncPipe],
   imports: [
   ],
-  exports: [CoreComponent]
+  exports: [RsyncPipe]
 })
-export class CoreModule { }
+export class NgrValCoreModule { }

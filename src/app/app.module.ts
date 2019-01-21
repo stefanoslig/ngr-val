@@ -2,15 +2,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { JokesListComponent } from './users.component';
+import { UsersComponent } from './users.component';
+import { NgrValCoreModule } from 'projects/ngr-val/core/src/public_api';
 
 @NgModule({
     declarations: [
         AppComponent,
-        JokesListComponent
+        UsersComponent
     ],
     imports: [
-        BrowserModule
+        BrowserModule,
+        NgrValCoreModule
     ],
     providers: [],
     bootstrap: [AppComponent]

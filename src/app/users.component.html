@@ -6,7 +6,7 @@
 </ul>
 <ul>
 	<h3>Selected Users</h3>
-	<li *ngFor="let selected of selectedUsers">
+	<li *ngFor="let selected of selectedUsers | rsync">
 		<span class="description">{{selected.first_name}} {{selected.last_name}}</span>
 	</li>
 </ul>
